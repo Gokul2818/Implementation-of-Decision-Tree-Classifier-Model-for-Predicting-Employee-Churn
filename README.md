@@ -15,10 +15,11 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 
 ## Program:
 ```
-/*
 Program to implement the Decision Tree Classifier Model for Predicting Employee Churn.
 Developed by: GOKUL S
 RegisterNumber:  24004336
+```
+```python
 import pandas as pd
 from sklearn.tree import DecisionTreeClassifier, plot_tree
 data=pd.read_csv("Employee.csv")
@@ -46,13 +47,18 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 plt.figure(figsize=(8,6))
 plot_tree(dt,feature_names=x.columns,class_names=['salary','left'],filled=True)
 plt.show()
-*/
+
 ```
 
 ## Output:
-![Screenshot (57)](https://github.com/user-attachments/assets/3b9dfbc6-f68c-4d39-b23a-950e6643599a)
-
-
+![image](https://github.com/user-attachments/assets/f8e5c5d0-f602-463a-b4da-140a2a26442d)
+![image](https://github.com/user-attachments/assets/c8fab2b4-3968-4a5f-a2e0-565fde99f616)
+![image](https://github.com/user-attachments/assets/a3beb495-90a1-420b-b10c-0f074ea24dbd)
+![image](https://github.com/user-attachments/assets/48e45f6c-12ab-479e-8e9c-d20802196914)
+![image](https://github.com/user-attachments/assets/09439818-cd98-415b-8d2d-b076a8b52e9b)
+![image](https://github.com/user-attachments/assets/04b71c4c-45c8-48c9-8c01-4af89adf7cce)
+![image](https://github.com/user-attachments/assets/54a65e93-0158-450e-8676-b67ad1e36e5e)
+![image](https://github.com/user-attachments/assets/9824aa9b-3f55-401d-8bda-01e7a34f3fe2)
 
 ## Result:
 Thus the program to implement the  Decision Tree Classifier Model for Predicting Employee Churn is written and verified using python programming.
